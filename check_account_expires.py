@@ -26,12 +26,12 @@ def send_info(message):
     api_url = "https://oapi.dingtalk.com/robot/send"
     querystring = {"access_token": "钉钉机器人token"}
     data = {
-        "msgtype": "text",
+        "megtype": "text",
         "text": {
             "content": message
             },
         "at": {
-            'isAtall': True
+            'isAtAll': True
             }
 
         }
